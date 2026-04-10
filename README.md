@@ -72,6 +72,27 @@ This chatbot answers **all of them instantly** using a knowledge base — no hal
 
 ---
 
+## 🧠 Why No Hallucination?
+
+Unlike generic AI chatbots (like raw ChatGPT), this system **never makes up information**. Here's why:
+
+| Generic Chatbot | This System |
+|----------------|-------------|
+| Generates answers from training data | Only answers from **verified business data** |
+| Can invent menu items that don't exist | Returns **exact menu items** from knowledge base |
+| May give wrong prices or hours | Pulls **real-time accurate** information |
+| Unpredictable responses | **Consistent, reliable** answers every time |
+
+**How it works:** Every response is grounded in a structured knowledge base that the business owner controls. If information isn't in the knowledge base, the chatbot says "I don't have that information" instead of guessing.
+
+This ensures:
+- ✅ Accurate answers — always
+- ✅ No fabricated information — ever
+- ✅ High customer trust — guaranteed
+- ✅ Business owner control — complete
+
+---
+
 ## 📊 Sample Interactions
 
 ### Menu Inquiry
@@ -171,12 +192,17 @@ This system is designed for but not limited to:
 
 ---
 
-## 🛠️ Tech Stack
+## ⚙️ Implementation Details
 
-- **AI/NLP Engine** — Large Language Model with retrieval-augmented generation
-- **Knowledge Base** — Structured data store with real-time updates
-- **Chat Interface** — Embeddable web widget
-- **Analytics** — Conversation tracking and insights
+This system is built using a combination of:
+
+- **LLM Engine** — GPT-4o / GPT-4o-mini for natural language understanding and response generation
+- **Chat Interface** — Voiceflow for building and deploying the conversational UI
+- **Knowledge Base** — Structured JSON data store with restaurant-specific information
+- **Embedding & Retrieval** — RAG (Retrieval-Augmented Generation) for accurate, grounded responses
+- **Deployment** — Embeddable web widget that works on any website
+
+The focus is on **rapid deployment and reliability** for real-world business use cases. The system can be customized for any new business in under 2 hours.
 
 ---
 
@@ -192,4 +218,4 @@ This system is designed for but not limited to:
 
 ## 📄 License
 
-This project is proprietary. For licensing inquiries, please contact the author.
+This project is licensed under the [MIT License](LICENSE).
