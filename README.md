@@ -6,6 +6,8 @@ An intelligent AI-powered chatbot that handles 80%+ of common customer inquiries
 ![AI](https://img.shields.io/badge/AI-Powered-blue)
 ![Industry](https://img.shields.io/badge/Industry-Restaurants%20%26%20Hospitality-orange)
 
+> **💼 Want this for your business?** I build custom AI chatbots for restaurants, hotels, and service businesses. → [arjunworks.se](https://arjunworks.se)
+
 ---
 
 ## 🎬 Live Demo
@@ -203,6 +205,22 @@ This system is built using a combination of:
 - **Deployment** — Embeddable web widget that works on any website
 
 The focus is on **rapid deployment and reliability** for real-world business use cases. The system can be customized for any new business in under 2 hours.
+
+---
+
+## 🚀 Deployment
+
+The chatbot can be deployed on:
+
+| Platform | Setup Time | Best For |
+|----------|-----------|----------|
+| **Website** (chat widget) | 30 minutes | Restaurants, Hotels, Clinics |
+| **WhatsApp** (via API) | 1 hour | Delivery services, Local businesses |
+| **Facebook Messenger** | 1 hour | Social-first businesses |
+| **Instagram DM** | 1 hour | Retail, Cafés |
+| **Custom Web App** | 2-4 hours | Enterprise clients |
+
+Average time to customize for a new business: **under 2 hours**.
 
 ---
 
