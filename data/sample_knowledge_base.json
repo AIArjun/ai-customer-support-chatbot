@@ -1,0 +1,80 @@
+{
+  "restaurant": {
+    "name": "Uppsala Bistro",
+    "tagline": "Authentic flavors in the heart of Uppsala",
+    "location": {
+      "address": "Svartbäcksgatan 25, 753 32 Uppsala, Sweden",
+      "coordinates": {
+        "latitude": 59.8586,
+        "longitude": 17.6389
+      },
+      "parking": "Street parking available. Nearest parking garage: Forumgaraget (5 min walk)"
+    },
+    "hours": {
+      "monday": "11:00 - 21:00",
+      "tuesday": "11:00 - 21:00",
+      "wednesday": "11:00 - 21:00",
+      "thursday": "11:00 - 22:00",
+      "friday": "11:00 - 23:00",
+      "saturday": "12:00 - 23:00",
+      "sunday": "12:00 - 20:00"
+    },
+    "contact": {
+      "phone": "+46 18 XXX XX XX",
+      "email": "info@uppsalabistro.se",
+      "website": "https://uppsalabistro.se"
+    },
+    "menu": {
+      "starters": [
+        {"name": "Hummus Plate", "price": "89 SEK", "dietary": ["vegan", "gluten-free"]},
+        {"name": "Garlic Bread", "price": "69 SEK", "dietary": ["vegetarian"]},
+        {"name": "Soup of the Day", "price": "79 SEK", "dietary": ["varies"]}
+      ],
+      "mains": [
+        {"name": "Grilled Chicken", "price": "169 SEK", "dietary": ["gluten-free"]},
+        {"name": "Lamb Kebab Plate", "price": "179 SEK", "dietary": ["gluten-free"]},
+        {"name": "Falafel Wrap", "price": "139 SEK", "dietary": ["vegan"]},
+        {"name": "Salmon Fillet", "price": "189 SEK", "dietary": ["gluten-free"]},
+        {"name": "Vegetable Curry", "price": "149 SEK", "dietary": ["vegan", "gluten-free"]}
+      ],
+      "desserts": [
+        {"name": "Baklava", "price": "69 SEK", "dietary": ["vegetarian"]},
+        {"name": "Ice Cream (3 scoops)", "price": "59 SEK", "dietary": ["vegetarian", "gluten-free"]}
+      ],
+      "drinks": [
+        {"name": "Soft Drinks", "price": "35 SEK", "dietary": ["vegan"]},
+        {"name": "Fresh Juice", "price": "55 SEK", "dietary": ["vegan"]},
+        {"name": "Turkish Tea", "price": "29 SEK", "dietary": ["vegan"]},
+        {"name": "Coffee", "price": "39 SEK", "dietary": ["vegan"]}
+      ]
+    },
+    "dietary_info": {
+      "gluten_free": ["Hummus Plate", "Grilled Chicken", "Lamb Kebab Plate", "Salmon Fillet", "Vegetable Curry", "Ice Cream"],
+      "vegan": ["Hummus Plate", "Falafel Wrap", "Vegetable Curry"],
+      "vegetarian": ["Hummus Plate", "Garlic Bread", "Falafel Wrap", "Vegetable Curry", "Baklava", "Ice Cream"],
+      "nut_free": ["Grilled Chicken", "Lamb Kebab Plate", "Salmon Fillet", "Falafel Wrap"]
+    },
+    "delivery": {
+      "available": true,
+      "platforms": ["Foodora", "Uber Eats"],
+      "minimum_order": "149 SEK",
+      "delivery_fee": "39-59 SEK (varies by platform)",
+      "estimated_time": "30-45 minutes",
+      "radius_km": 5
+    },
+    "reservation": {
+      "available": true,
+      "methods": ["Phone", "Email", "Walk-in"],
+      "max_party_size": 12,
+      "large_groups": "For parties of 12+, please call to arrange",
+      "deposit_required": false
+    },
+    "special_features": [
+      "Outdoor seating (summer)",
+      "Kids menu available",
+      "Takeaway available",
+      "Free Wi-Fi",
+      "Wheelchair accessible"
+    ]
+  }
+}
